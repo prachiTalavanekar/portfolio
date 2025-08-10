@@ -1,0 +1,105 @@
+/* about.css */
+
+.about-section {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 80px 5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #ff9900;
+  margin: 0 auto 40px;
+  border-radius: 2px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 320px;
+  border-left: 6px solid #ff9900;
+  padding-left: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-content {
+  flex: 2;
+  min-width: 280px;
+}
+
+.about-intro {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.about-info strong {
+  color: #ff9900;
+  margin-right: 8px;
+}
+
+.about-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hire {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+.hire:hover {
+  background-color: #e68100;
+}
+
+.download {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.download:hover {
+  background-color: #fff;
+  color: #1c1c1c;
+}
